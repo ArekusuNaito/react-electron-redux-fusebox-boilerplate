@@ -19,7 +19,7 @@ Inside the `src` folder you will find.
 
 ```bash
 # Clone this repository
-git clone https://github.com/arekusunaito/electron-fuse-box-babel-live-reload-boilerplate
+git clone https://github.com/ArekusuNaito/react-electron-redux-fusebox-boilerplate.git
 # Go into the repository
 cd <your project name>
 # Install dependencies
