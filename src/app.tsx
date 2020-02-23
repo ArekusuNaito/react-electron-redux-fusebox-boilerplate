@@ -75,5 +75,5 @@ render(
                 <Route path='*' component={Error404}/>
             </Switch>
         </HashRouter>
-    </Provider>, document.getElementById("trofi"));
+    </Provider>, document.getElementById("app"));
 
