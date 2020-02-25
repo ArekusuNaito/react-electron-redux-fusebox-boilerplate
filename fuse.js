@@ -13,12 +13,14 @@ const fuse = fusebox
     devServer: true,
     // homeDir: homeDirectoryName,
     webIndex:
-    {
+    { 
       template:'src/template.html'
     },
     hmr: true,
     // useSingleBundle: true,
-    dependencies:{include:['tslib']},
+    //for some reason this is needed, 👇
+    //even tho the official documentation doesnt mention it
+    dependencies:{include:['tslib']}, 
     plugins: [pluginJSON()]
 });
 fuse.runDev();
