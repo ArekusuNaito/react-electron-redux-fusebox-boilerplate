@@ -16,7 +16,9 @@ const fuse = fusebox
     {
       template:'src/template.html'
     },
-    hmr: true
+    hmr: true,
+    // useSingleBundle: true,
+    dependencies:{include:['tslib']},
     plugins: [pluginJSON()]
 });
 fuse.runDev();
